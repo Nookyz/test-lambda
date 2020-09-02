@@ -1,4 +1,8 @@
-# Test task
+# Test task lambda
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58b14437-a5a5-43a3-998c-48715609e203/deploy-status)](https://app.netlify.com/sites/zealous-boyd-e36ad1/deploys)
+
+[Live demo](https://zealous-boyd-e36ad1.netlify.app/)
 
 ## Install dependencies
 
