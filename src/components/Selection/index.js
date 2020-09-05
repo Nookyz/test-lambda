@@ -36,9 +36,9 @@ const Selection = () => {
         <Label>
           <Input
             type="radio"
-            checked={radio === 'rus'}
-            name="rus"
-            value="rus"
+            checked={radio === 'ru'}
+            name="ru"
+            value="ru"
             onChange={onChangeRadio}
           />
           <p>{main?.language.rus}</p>
