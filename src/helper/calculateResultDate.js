@@ -1,10 +1,6 @@
-import { resetDate } from './resetDate'
-import { timeSpentFor } from './timeSpentFor'
+const { resetDate } = require('./resetDate')
 
-// const dateStart = new Date()
-// const timeSpent = timeSpentFor(2333, "en")
-
-export function calculateResultDate(durationToWork, start = new Date()) {
+function calculateResultDate(durationToWork, start = new Date()) {
   const evening = 19
   const morning = 10
   let deadline = start
@@ -40,3 +36,5 @@ export function calculateResultDate(durationToWork, start = new Date()) {
     }
   }
 }
+
+module.exports = { calculateResultDate }

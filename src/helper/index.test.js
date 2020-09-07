@@ -1,7 +1,7 @@
-import moment from 'moment'
-import { calculateResultDate } from '@/helper/calculateResultDate'
-import { calculatePrice } from '@/helper/calculatePrice'
-import { chooseCoefficientSpeed } from '@/helper/chooseCoefficientSpeed'
+const moment = require('moment')
+const { calculateResultDate } = require('../helper/calculateResultDate')
+const { calculatePrice } = require('../helper/calculatePrice')
+const { chooseCoefficientSpeed } = require('../helper/chooseCoefficientSpeed')
 
 describe('chooseCoefficientSpeed', () => {
   test.each`

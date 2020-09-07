@@ -7,7 +7,7 @@ const symbolsPerHour = {
 const HOUR = 60 * 60
 const HALF_HOUR = HOUR / 2
 
-export function timeSpentFor(count, ln) {
+function timeSpentFor(count, ln) {
   if (!symbolsPerHour[ln]) {
     // throw new Error(`Unknown language: ${ln}`)
     return
@@ -23,3 +23,5 @@ export function timeSpentFor(count, ln) {
   // return in seconds
   return Math.floor(timeToSpend)
 }
+
+module.exports = { timeSpentFor }

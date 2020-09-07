@@ -1,4 +1,4 @@
-export function chooseCoefficientSpeed(language) {
+function chooseCoefficientSpeed(language) {
   if (language === 'en') {
     return { coefficient: 0.12, speed: 333, minCost: 120 }
   }
@@ -9,3 +9,5 @@ export function chooseCoefficientSpeed(language) {
 
   return {}
 }
+
+module.exports = { chooseCoefficientSpeed }
